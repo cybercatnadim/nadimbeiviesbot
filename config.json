@@ -19,12 +19,12 @@
 		"ignoreCommand": []
 	},
 	"adminBot": [
-		"100045644423035"
+		"100008691077091"
 	],
-	"owner": ["100045644423035"],
+	"owner": ["100008691077091"],
 	"whiteListMode": {
 		"enable": false,
-		"whiteListIds": ["100045644423035"],
+		"whiteListIds": ["100008691077091"],
 		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
 	},
 	"whiteListModeThread": {
@@ -34,7 +34,7 @@
 		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
 	},
 	"database": {
-		"type": "mongodb",
+		"type" "mongodb",
 		"uriMongodb": "mongodb+srv://sirana5098:shan252@cluster0.afe4f.mongodb.net/unknown-v2?retryWrites=true&w=majority&appName=Cluster0",
 		"autoSyncWhenStart": false,
 		"autoRefreshThreadInfoFirstTime": true,
